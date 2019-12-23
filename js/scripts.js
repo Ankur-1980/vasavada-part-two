@@ -2,12 +2,11 @@ var txt;
 var loCal;
 var transPo;
 
-function myFunction() {
-
+function vaCay() {
 	var vacationType = prompt("What kind of trip would you like to go on?", "musical, tropical, or adventurous");
 		console.log(vacationType);
 
-	if (vacationType == null) || vacationType == "") {
+		if (vacationType == null || vacationType == "") {
 		alert("Please choose the type of vacation you would like to go on")
 	} else if (vacationType === 'musical') {
 			var loCal = "New Orleans";
